@@ -13,5 +13,5 @@ spec:
   templates:
   - name: whalesay
     container:
-      image: docker/node:latest
+      image: node:latest
       command: [-v]
