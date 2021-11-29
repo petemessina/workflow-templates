@@ -12,9 +12,9 @@ spec:
   entrypoint: whalesay
   templates:
   - name: whalesay
-    container:
+    script:
       image: node:latest
       command: [node]
       source: |
         var rand = Math.floor(Math.random() * 100);
-        console.log(rand);
+        console.log(rand)
