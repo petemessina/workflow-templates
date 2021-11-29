@@ -14,4 +14,4 @@ spec:
   - name: whalesay
     container:
       image: node:latest
-      command: [-v]
+      command: [node -v]
